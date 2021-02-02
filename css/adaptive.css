@@ -129,7 +129,7 @@
     width: 600px;
   }
   .footer_content {
-    width: 750px;
+    width: 760px;
   }
 }
 
@@ -182,7 +182,7 @@
   }
 
   .footer_content {
-    width: 400px;
+    width: 460px;
   }
 
   .footer_menu {
@@ -190,12 +190,11 @@
   }
 
   .footer_contacts {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .footer_contacts p:last-child {
     margin-left: 0px;
-    margin-top: 10px;
   }
 
   footer .line {
@@ -205,6 +204,11 @@
 
   .footer_location {
     justify-content: space-between;
+    margin: 0px 0px 10px 0px;
+  }
+
+  .footer_location p:last-child {
+    text-align: right;
   }
 }
 
@@ -253,7 +257,8 @@
   }
   
   .footer_content {
-    width: 250px;
+    width: 290px;
   }
+
 
 }

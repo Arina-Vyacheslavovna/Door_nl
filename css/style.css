@@ -290,14 +290,19 @@ main {
   padding-bottom: 40px;
   text-align: center;
   background: white;
+}
 
+main h1 {
+  font-size: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .main_catalog {
   position: relative;
   width: 1100px;
   margin: auto;
- display: flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 } 
@@ -335,7 +340,7 @@ section {
   width: 800px;
 }
 
-section h1 {
+section h2 {
   margin-bottom: 20px;
   font-size: 30px;
   text-align: center;
@@ -356,7 +361,7 @@ footer {
   padding-top: 20px;
   padding-bottom: 40px;
   color: white;
-  font-size: 12px;
+  font-size: 10px;
   width: 800px;
   margin: auto;
 }
@@ -389,24 +394,23 @@ footer .line {
   margin-bottom: 30px;
 }
 
-.footer_contacts a {
-  color: white;
-}
 
 .footer_contacts {
   display: flex;
   justify-content: space-between;
 }
 
-.footer_contacts .footer_location p {
+.footer_contacts .footer_location p, .footer_contacts p a  {
   margin-right: 10px;
+  color: white;
 }
 
 .footer_location {
   display: flex;
   flex-direction: row;
+  margin-bottom: 10px;
 }
 
-.footer_contacts p:last-child {
-  margin-left: 10px;
+.footer_contacts p {
+  margin-left: 0px;
 }
