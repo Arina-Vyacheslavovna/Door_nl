@@ -292,6 +292,18 @@ main {
   background: white;
 }
 
+main > p a {
+  background-color: rgb(255, 228, 177);
+  box-shadow: 0 0 40px rgb(255, 216, 143);
+  border-radius: 15px;
+  font-size: 30px;
+  padding: 5px;
+}
+main > p a:hover {
+  background-color: rgb(255, 187, 61);
+  transition: 0.5s;
+}
+
 main h1 {
   font-size: 40px;
   padding-top: 20px;
@@ -305,6 +317,7 @@ main h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 20px;
 } 
 
 .main_catalog .product {
@@ -333,6 +346,7 @@ section {
   background-color:rgb(255, 241, 215);
   padding-bottom: 30px;
   padding-top: 40px;
+  margin-top: 70px;
 }
 
 .content_text {
